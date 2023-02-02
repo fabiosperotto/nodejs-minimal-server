@@ -2,6 +2,7 @@
 # Minimal Node.js Server
 Projeto para fins de estudos acadêmicos de como implementar uma aplicação web funcional com [Node.js](https://nodejs.org/) com o mínimo possível de dependências. É uma framework mínimo para o desenvolvimento de sites. O propósito é para que estudantes tenham contato com aplicações web com Node.js antes de desenvolver aplicações profissionais com Express, Axios ou outros frameworks, do ecossistema do Node.js.
 
+[Click here to README in english](README-en.md)
 
 ## Instalação
 Efetuar o download do projeto na última versão e:
