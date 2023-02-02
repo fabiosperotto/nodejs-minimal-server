@@ -1,0 +1,15 @@
+{
+  "name": "node-server-minimal",
+  "version": "1.0.0",
+  "description": "framework minimo para aplicacoes web",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "fabiosperotto",
+  "license": "ISC",
+  "dependencies": {
+    "client-sessions": "^0.8.0",
+    "ejs": "^3.1.8"
+  }
+}

@@ -1,0 +1,18 @@
+<%- include(process.cwd() + '/views/layout/header'); -%>
+    <section>
+        <h2>Fale Conosco</h2>
+        <% if(locals.nome){ %>
+            <p>Olá <%= nome %> sua mensagem foi recebida e em breve será respondida.</p>
+        <% }else{ %>
+            <form name="form-contato" method="post" action="/contato">
+                Nome: <input type="text" name="nome" id="form-contato-nome" size="20" required> <br/>
+                E-mail: <input type="email" name="email" id="form-contato-email" size="20"> <br/>
+                Mensagem: <textarea name="mensagem" id="form-contato-msg" required></textarea> <br/>
+                <button>Enviar</button>
+            </form>
+            <% if(locals.erro1){ %>
+                <p>Campos obrigatórios não foram informados</p>
+            <% } %>
+        <% } %>
+    </section>
+<%- include(process.cwd() + '/views/layout/footer'); -%>
