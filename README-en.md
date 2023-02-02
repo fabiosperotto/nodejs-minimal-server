@@ -12,6 +12,12 @@ Download the project in the latest version and:
 $ npm install
 ```
 
+Run application:
+```bash
+$ node server.js
+```
+
+
 
 ## Structure
 The structure of this minimal framework seeks to be guided by the [MVC](https://pt.wikipedia.org/wiki/MVC) architecture:

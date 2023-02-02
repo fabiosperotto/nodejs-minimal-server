@@ -10,6 +10,11 @@ Efetuar o download do projeto na última versão e:
 $ npm install
 ```
 
+Para rodar a aplicação:
+```bash
+$ node server.js
+```
+
 
 ## Estrutura
 A estrutura deste framework mínimo procura se orientar pela arquitetura [MVC](https://pt.wikipedia.org/wiki/MVC):
