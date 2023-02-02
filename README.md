@@ -1,10 +1,10 @@
 
 # Minimal Node.js Server
-Projeto para fins de estudos acadêmicos de como implementar uma aplicação web funcional com [Node.js](https://nodejs.org/) com o mínimo possível de dependências. É uma framework mínimo para o desenvolvimento de sites. O propósito é para que desenvolvedores(as) tenham contato com aplicações web com Node.js antes de desenvolver aplicações profissionais com Express, Axios ou outros frameworks, do ecossistema do Node.js.
+Projeto para fins de estudos acadêmicos de como implementar uma aplicação web funcional com [Node.js](https://nodejs.org/) com o mínimo possível de dependências. É uma framework mínimo para o desenvolvimento de sites. O propósito é para que estudantes tenham contato com aplicações web com Node.js antes de desenvolver aplicações profissionais com Express, Axios ou outros frameworks, do ecossistema do Node.js.
 
 
 ## Instalação
-Eftuar o download do projeto na última versão e:
+Efetuar o download do projeto na última versão e:
 ```bash
 $ npm install
 ```
@@ -22,7 +22,7 @@ A estrutura deste framework mínimo procura se orientar pela arquitetura [MVC](h
 ## Como utilizar
 O presente projeto já possui páginas de exemplos. Para criar uma página:
 1. Crie o seu HTML no diretório /views, os arquivos possuem a extensão .ejs;
-2. Crie uma entrada no arquivo routes.js para trar a requisição HTTP echame um controller responsável;
+2. Crie uma entrada no arquivo routes.js para tratar a requisição HTTP e chame um controller responsável;
 3. Crie o controller responsável em /app/controllers que finaliza o processamento da requisição + verbo HTTP e retorna a view deseja (criada no passo 1).
 
 
@@ -35,7 +35,7 @@ Para o presente projeto é utilizado para o gerenciamento de template o [EJS](ht
 Para o gerenciamento de sessões é utilizado o componente [client-sessions](https://github.com/mozilla/node-client-sessions). Configure a sessão e os cookies conforme exemplo em server.js. Depois poderá criar e acessar objetos em sessão, além de realizar a destruição da mesma. Verifique exemplos em /app/controllers/user.js
 
 
-## Compatibilidade
+## Pré-requisitos e Compatibilidade
 - Node.js 12+;
 
 
