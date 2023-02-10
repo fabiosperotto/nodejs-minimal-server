@@ -52,3 +52,8 @@ Não é necessário abrir uma issue para realizar discussões antes de entregar 
 - Melhoria de qualidade de código ou da arquitetura de toda a aplicação;
 - Melhoria nas documentações;
 - Outros, fique a vontade em contribuir.
+
+Como contribuir:
+- Faça o fork deste projeto;
+- Crie uma branch para a sua funcionalidade no formato "branch-nome", implemente a sua solução;
+- Faça o pull request.

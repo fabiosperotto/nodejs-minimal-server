@@ -62,3 +62,8 @@ It is not necessary to open an issue to have discussions before submitting your 
 - Improve the application architecture;
 - Improved documentation;
 - Others, feel free to contribute.
+
+How to contribute:
+- Fork this project;
+- Create a branch for your feature in a "branch-name" format, do your code;
+- Make the pull request.
